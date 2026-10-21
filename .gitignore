@@ -1,0 +1,15 @@
+# Data (never commit raw or generated data)
+data/
+ecommerce/
+misc/
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
