@@ -65,7 +65,7 @@ logging.basicConfig(
      level = logging.INFO,
      format = "%(asctime)s %(levelname)s %(message)s",
 )
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_DIR= PROJECT_ROOT / "data" / "raw" / "olist" 
 BRONZE_DIR = PROJECT_ROOT / "data" / "bronze" 
 
